@@ -25,28 +25,28 @@
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
-    rgb(63, 63, 64) 3%, 
-    hsl(0, 0%, 19%) 97%
+    rgb(227, 167, 206) 3%, 
+    hsl(324, 42%, 71%) 97%
   );
   --bg-gradient-jet: linear-gradient(
     to bottom right, 
-    hsla(240, 1%, 18%, 0.251) 0%, 
-    hsla(240, 2%, 11%, 0) 100%
-  ), hsl(240, 2%, 13%);
+    hsla(120, 1%, 22%, 0.93) 0%, 
+    hsla(328, 24%, 45%, 0.854) 100%
+  ), hsl(286, 35%, 78%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
     hsl(45, 100%, 71%) 0%, 
-    hsla(36, 100%, 69%, 0) 50%
+    hsla(328, 24%, 45%, 0.854) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
     135deg, 
     hsla(45, 100%, 71%, 0.251) 0%, 
-    hsla(35, 100%, 68%, 0) 59.86%
-  ), hsl(240, 2%, 13%);
+    hsla(143, 57%, 43%, 0.477) 59.86%
+  ), hsl(130deg 7% 21%);
   --border-gradient-onyx: linear-gradient(
     to bottom right, 
     hsl(0, 0%, 25%) 0%, 
-    hsla(0, 0%, 25%, 0) 50%
+    hsla(143, 57%, 43%, 0.477) 50%
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
@@ -56,11 +56,11 @@
 
   /* solid */
 
-  --jet: hwb(0 22% 78%);
-  --onyx: #FFE3E1;
-  --eerie-black-1: rgb(32, 32, 34);
-  --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(0, 0%, 7%);
+  --jet: hwb(0deg 30% 64%);
+  --onyx: hwb(0deg 38% 54%);
+  --eerie-black-1: rgb(43, 40, 42);
+  --eerie-black-2: hsl(0deg 0% 0% / 13%);
+  --smoky-black: hsl(0, 5%, 25%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
@@ -96,11 +96,11 @@
    * shadow
    */
   
-  --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
-  --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
-  --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
-  --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
-  --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
+  --shadow-1: -4px 8px 24px hsla(326, 22%, 31%, 0.879);
+  --shadow-2: 0 16px 30px hsla(326, 22%, 31%, 0.879);
+  --shadow-3: 0 16px 40px hsla(326, 22%, 31%, 0.879);
+  --shadow-4: 0 25px 50px hsla(326, 22%, 31%, 0.879);
+  --shadow-5: 0 24px 80px hsla(326, 22%, 31%, 0.879);
 
   /**
    * transition
@@ -459,7 +459,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
+  background: hsla(240, 2%, 18%, 0.75);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
